@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ear-flat">
+        <dependent-module archiveName="web1-flat.war" deploy-path="/" handle="module:/resource/web1-flat/web1-flat">
+            <dependent-object>Module_1442346976361</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="web2-flat.war" deploy-path="/" handle="module:/resource/web2-flat/web2-flat">
+            <dependent-object>Module_1442347014303</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
